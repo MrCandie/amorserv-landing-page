@@ -37,8 +37,13 @@ export default function Hero() {
         </Flex>
       </Flex>
       <Flex w="100%" position="relative" align="end" justify="end">
-        <Box w="75%">
-          <ImageComponent height="620px" src="/hero.png" alt="hero" />
+        <Box w="1016px">
+          <ImageComponent
+            fit="contain"
+            height="626px"
+            src="/hero.png"
+            alt="hero"
+          />
         </Box>
       </Flex>
     </Flex>

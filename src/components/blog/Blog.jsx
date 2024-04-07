@@ -18,7 +18,7 @@ const data = [
   {
     title: "Faces of Itsekiri: Spotlight on Remarkable Individuals",
     text: "Introduce the vibrant personalities within the Itsekiri community who have made significant contributions in various fields.",
-    src: "/blog2.png",
+    src: "/blog3.png",
   },
 ];
 
@@ -86,7 +86,13 @@ function Reusable({ src, title, text }) {
           <Heading fontWeight={600} fontSize={20} color="#2D2735">
             {title}
           </Heading>
-          <Text fontWeight={400} fontSize={18} color="#4E4E4E">
+          <Text
+            fontWeight={400}
+            fontSize={18}
+            color="#4E4E4E"
+            w="90%"
+            // mx="auto"
+          >
             {text}
           </Text>
           <Button size="lg" color="#E37619" variant="ghost">

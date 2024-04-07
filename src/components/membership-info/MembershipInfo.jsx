@@ -41,14 +41,19 @@ export default function MembershipInfo() {
         Membership Information
       </Heading>
       <Flex w="100%" align="center" justify="space-between" gap="3rem">
-        <Flex w="50%" align="start" direction="column" gap="1rem">
-          <Box w="90%">
-            <ImageComponent src="/member.png" alt="bg" height="369px" />
+        <Flex w="45%" align="start" direction="column" gap="1rem">
+          <Box w="537px">
+            <ImageComponent
+              fit="contain"
+              src="/member.png"
+              alt="bg"
+              height="369px"
+            />
           </Box>
           <Heading fontSize={24} fontWeight={700} color="#2D2735">
             Membership and Benefits
           </Heading>
-          <Text w="90%" fontWeight={400} fontSize={18} color="#4E4E4E">
+          <Text w="80%" fontWeight={400} fontSize={18} color="#4E4E4E">
             Embrace your Itsekiri heritage by joining our General Membership—a
             community that welcomes every Itsekiri and friend of Itsekiri
             culture. As a member, you'll engage in preserving and celebrating
@@ -65,7 +70,7 @@ export default function MembershipInfo() {
           </Button>
         </Flex>
         <Flex
-          w="50%"
+          w="55%"
           align="start"
           justify="start"
           direction="column"
